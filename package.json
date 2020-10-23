@@ -1,0 +1,24 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "firebase-tools": "^8.9.2",
+    "mongoose": "^5.10.7",
+    "path": "^0.12.7",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "serve": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

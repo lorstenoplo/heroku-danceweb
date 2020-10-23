@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    margin: 2px 2px;
+    /* margin-left: -300px; */
+}
+
+#logo img{
+height: 50px;
+width: 50px;
+border-radius: 100px;
+}
+
+.navbar{
+    color: white;
+    font-family: 'Lacquer', cursive;
+    padding: 5px 30px;
+    background-color: rgb(248, 67, 67);
+}
+.navbar ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+.navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 55px;
+    background: center / cover no-repeat url("/static/bj.jpg");
+    opacity: 0.85;
+    height: 515px;
+}
+
+#introsection div.small{
+    font-size: 30px
+}
+
+#sponsersection{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 38px;
+    height: 300px;
+    background-color: #eca6a6;
+}
+
+#sponsers{
+    height: 180px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 90%;
+    margin: 5px;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+#missionsection{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    /* height: 300px; */
+   
+}
+.card{
+    /* height: 200px; */
+    margin: 20px;
+    padding: 2px;
+    padding-bottom:13px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+.card p{
+    margin: 8px;
+}
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    color: white;
+    /* height: 40px; */
+    background-color: black;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 1030px){
+  #logo{
+      display: none;
+  }
+
+  .navbar li {
+      padding: 35px 15px;
+      margin: 1px;
+  }
+
+  .navbar li a{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+#introsection{
+    height: 1000px;
+    font-size: 3.8rem;
+}
+#introsection div.small{
+font-size: 3.9rem;
+}
+#missionsection{
+    font-size: 1.3rem;
+    margin: 10px;
+    background-color: white;
+    /* height: 2100px; */
+}
+#missionsection h1{
+    font-size: 7rem;
+    margin: 2px;
+    font-weight: bold;
+}
+div.card{
+    margin: 50px 0;
+}
+div.card p{
+    font-size: 6rem;
+}
+div.card-box{
+    flex-direction: column;
+    font-size: 4.5rem;  
+}
+div.card-img{
+    height: 400px;
+}
+.card{
+    width: 90%;
+}
+#sponsersection{
+    font-size: 7rem;
+    height: fit-content;
+    /* margin: 330px 0px; */
+}
+#sponsers{
+    height: fit-content;
+}
+#sponsers img{
+height: 325px;
+}
+#footer{
+    padding: 15px 0;
+    font-size: 2.1rem;
+}
+}

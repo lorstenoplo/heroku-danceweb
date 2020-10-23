@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title NishanthDanceAcademy
+    block style 
+    block scripts
+      script(src='../static/index.js')
+
+  body
+    nav.navbar
+        ul
+            div#logo 
+             img(src="/static/logo.jpg")
+             |NDA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/contact") Contact Us]
+            li #[a(href = "/") Class Info]
+
+    block content
+    #footer
+        |CopyRight 2020 © NishanthDanceAcademy | All rights reserved 

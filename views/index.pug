@@ -1,0 +1,51 @@
+doctype html
+html
+    head
+        title NishanthDanceAcademy
+        style
+            include ../static/style.css
+body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/logo.jpg", alt="This is a logo")
+                |NDA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Contact Us]
+            li #[a(href = "/") Class Info]
+            li #[a(href = "/") Services ]
+    section#introsection
+        div Welcome to Nishanth Dance Academy
+        div.small Eat Sleep Dance repeat
+    section#missionsection
+        h2 Our Mission
+        div.card 
+            p Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/a.jpg", alt="dance image")
+                div.card-content 
+                |This is the best dance academy in the country    
+        div.card 
+            p Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/b.jpg", alt="dance image")
+                div.card-content 
+                |Expert Teachers from all over the world  
+        div.card 
+            p Dance your way
+            div.card-box 
+                div.card-img 
+                    img(src="/static/c.jpg", alt="dance image")
+                div.card-content 
+                |Huge variety of teachers are availabe 
+    section#sponsersection
+        |Our Sponsers
+        div#sponsers 
+            img(src="/static/logo1.png", alt="sponser image", class="spImage")
+            img(src="/static/logo2.png", alt="sponser image", class="spImage")
+            img(src="/static/logo3.jpg", alt="sponser image", class="spImage")
+            img(src="/static/log4.png", alt="sponser image", class="spImage")             
+    
